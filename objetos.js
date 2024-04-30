@@ -9,8 +9,8 @@ class Calebe {
         //açoes
         window.open(this.site);
     }
-
-    metodo2 () {
-        //açoes
-    }
+   //metodo2 () { //açoes }
 }
+
+var novoCalebe = new Calebe ("https://br.pinterest.com/pin/221520875415729927/");
+novoCalebe.exibirSite();
